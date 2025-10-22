@@ -1,0 +1,15 @@
+# NLP Evaluation Project Dependencies
+# Core NLP Libraries
+spacy>=3.7.0
+transformers>=4.30.0
+torch>=2.0.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Model-specific requirements
+# For spaCy models, run after installation:
+# python -m spacy download en_core_web_sm
+
+# Optional: Progress bars and utilities
+tqdm>=4.65.0
