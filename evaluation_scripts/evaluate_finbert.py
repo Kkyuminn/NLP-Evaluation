@@ -156,7 +156,7 @@ def main():
     print("="*70)
     
     # Load dataset
-    dataset_path = "banking_ner_dataset.csv"
+    dataset_path = "../datasets/banking_ner_dataset.csv"
     print(f"\n📂 Loading dataset: {dataset_path}")
     
     try:

@@ -13,3 +13,4 @@ pandas>=2.0.0
 
 # Optional: Progress bars and utilities
 tqdm>=4.65.0
+

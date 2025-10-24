@@ -199,7 +199,7 @@ def main():
     print(f"spaCy version: {spacy.__version__}\n")
     
     # Load dataset
-    dataset_path = "banking_ner_dataset.csv"
+    dataset_path = "../datasets/banking_ner_dataset.csv"
     print(f"📂 Loading dataset: {dataset_path}")
     
     try:
@@ -221,12 +221,12 @@ def main():
         sys.exit(1)
     
     # Load spaCy model
-    print("\n🔧 Loading spaCy model: en_core_web_md")
+    print("\n🔧 Loading spaCy model: en_core_web_sm")
     try:
-        nlp = spacy.load('en_core_web_md')
+        nlp = spacy.load('en_core_web_sm')
         print("✅ Model loaded successfully")
     except OSError:
-        print("❌ Error: Model not found. Install: python -m spacy download en_core_web_md")
+        print("❌ Error: Model not found. Install: python -m spacy download en_core_web_sm")
         sys.exit(1)
     
     # Run evaluations
